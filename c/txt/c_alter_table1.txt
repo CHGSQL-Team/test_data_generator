@@ -1,0 +1,1 @@
+alter table `c` add column ff float default 211.0;

@@ -1,0 +1,7 @@
+CREATE TABLE if not exists `b` (
+  `id` bigint(20) unsigned NOT NULL,
+  `a` float NOT NULL DEFAULT '0',
+  `b` char(64) NOT NULL DEFAULT '',
+  `updated_at` timestamp NOT NULL DEFAULT '2021-12-12 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`,`a`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

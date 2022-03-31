@@ -1,0 +1,2 @@
+alter table `a` add key id_hh(hh,updated_at);
+

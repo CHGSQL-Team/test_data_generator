@@ -1,0 +1,1 @@
+alter table `d` add key index__uxzfhqvxbkmsa(gkmmszag,styhjktx);

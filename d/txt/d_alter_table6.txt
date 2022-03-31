@@ -1,0 +1,1 @@
+alter table `d` add column styhjktx varchar(32) default 'yfopqu' after id;

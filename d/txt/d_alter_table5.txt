@@ -1,0 +1,1 @@
+alter table `d` add column gkmmszag int default '1115' after id;

@@ -1,0 +1,1 @@
+alter table `d` drop index index__cdhipttbchqra;

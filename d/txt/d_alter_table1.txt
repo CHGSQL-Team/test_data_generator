@@ -1,0 +1,1 @@
+alter table `d` add column dijsuvzd int default '7781' after id;

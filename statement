@@ -1,0 +1,13 @@
+使用方法：
+1，参数传递形式为
+(1) model = 1: dst_file_name model src_file_name。作用为将src_file_name内容追加到dst_file_name
+(2) model = 0: dst_file_name model table_name col_num col_types int_begin insert_num。作用为
+生成INSERT INTO `table_name` values  ()语句，其中能生insert_num条数据，对每次程序指定int_begin，
+int_begin用来填充每行数据字段的int值，填充完后int_begin会自增，程序中的float_begin,char_begin同理,
+float_begin, char_begin在程序中有指定值，可以查看源码
+(3) process.sh中的命令已经可以直接用来生成数据，数据级别在百万级至千万级
+(4)最终生成的文件在sql文件夹内
+
+notice:
+(1) 程序col_type支持varchar, int， float，datetime,如果有其他类型字段请往这三种类型填，如char(32)填varchar
+(2)如果要防止冲突，需要设计好int_begin，即int_begin最好不要有交叠在同一批数据中。

@@ -1,0 +1,2 @@
+alter table `a` add column gg varchar(128) not null default '';
+

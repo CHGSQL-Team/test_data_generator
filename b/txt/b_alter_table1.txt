@@ -1,0 +1,1 @@
+alter table `b` add column cc int(11) default 21;

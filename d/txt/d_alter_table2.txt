@@ -1,0 +1,1 @@
+alter table `d` add column koqqvvvw varchar(32) default 'gpstwe' after id;

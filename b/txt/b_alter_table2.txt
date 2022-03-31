@@ -1,0 +1,1 @@
+alter table `b` add key id_a(a, cc);
